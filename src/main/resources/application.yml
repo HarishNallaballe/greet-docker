@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: greet-api
+eureka:
+  client:
+    service-url:
+      defaultZone: http://13.235.107.128:8761/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+server:
+    port : 9002 
